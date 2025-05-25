@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.Testing" time="62.53" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ishak\Downloads\Assignment\main\automation\target\test-classes;C:\Users\ishak\Downloads\Assignment\main\automation\target\classes;C:\Users\ishak\.m2\repository\com\microsoft\playwright\playwright\1.46.0\playwright-1.46.0.jar;C:\Users\ishak\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\ishak\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\ishak\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ishak\.m2\repository\com\microsoft\playwright\driver\1.46.0\driver-1.46.0.jar;C:\Users\ishak\.m2\repository\com\microsoft\playwright\driver-bundle\1.46.0\driver-bundle-1.46.0.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ishak\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ishak\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ishak\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ishak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\ishak\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ishak\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ishak\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.7\bin"/>
+    <property name="sun.java.command" value="C:\Users\ishak\AppData\Local\Temp\surefire14477810300365073301\surefirebooter-20250525170555449_3.jar C:\Users\ishak\AppData\Local\Temp\surefire14477810300365073301 2025-05-25T17-05-55_234-jvmRun1 surefire-20250525170555449_1tmp surefire_0-20250525170555449_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ishak\Downloads\Assignment\main\automation\target\test-classes;C:\Users\ishak\Downloads\Assignment\main\automation\target\classes;C:\Users\ishak\.m2\repository\com\microsoft\playwright\playwright\1.46.0\playwright-1.46.0.jar;C:\Users\ishak\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\ishak\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\ishak\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ishak\.m2\repository\com\microsoft\playwright\driver\1.46.0\driver-1.46.0.jar;C:\Users\ishak\.m2\repository\com\microsoft\playwright\driver-bundle\1.46.0\driver-bundle-1.46.0.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ishak\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ishak\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ishak\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ishak\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ishak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ishak\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\ishak\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ishak\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ishak\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ishak"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ishak\Downloads\Assignment\main\automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ishak\AppData\Local\Temp\surefire14477810300365073301\surefirebooter-20250525170555449_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="ishak"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ishak\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ishak\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\ishak\Downloads\Assignment\main\automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW\bin;C:\hadoopsetup\hadoop-3.2.4\bin;C:\Program Files\Java\jdk-21.0.7\bin;C:\Program Files\nodejs\;C:\derby\db-derby-10.14.2.0-bin\db-derby-10.14.2.0-bin\bin;C:\hive\apache-hive-3.1.3-bin\apache-hive-3.1.3-bin\bin;%HBASE_HOME%\bin;C:\pig-0.17.0\pig-0.17.0\bin;C:\Users\ishak\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\ishak\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ishak\AppData\Local\Programs\Python\Python312\;C:\Users\ishak\AppData\Roaming\TinyTeX\bin\windows;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ishak\AppData\Local\Microsoft\WindowsApps;C:\Users\ishak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ishak\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\ishak\AppData\Local\GitHubDesktop\bin;C:\Users\ishak\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Find discounted Tshirts for Van Heusen under Men category" classname="Get discounted products from Myntra based on gender, type, and brand #2" time="26.261">
+    <system-out><![CDATA[
+Scenario Outline: Find discounted Tshirts for Van Heusen under Men category # src/test/resources/features/pos.feature:14
+  Given I open the Myntra website at "https://www.myntra.com"               # steps.Myntra.openWebPage(java.lang.String)
+  When I select "Men" as the gender                                         # steps.Myntra.chooseGender(java.lang.String)
+  And I choose "Tshirts" as the product category                            # steps.Myntra.chooseProductType(java.lang.String)
+  And I apply the brand filter for "Van Heusen"                             # steps.Myntra.applyBrandFilter(java.lang.String)
+  Then I collect the products that are on discount from maximum 2 pages     # steps.Myntra.collectDiscountedProducts(int)
+  And I sort those products based on discount in descending order           # steps.Myntra.sortByDiscount()
+Discounted Tshirts for Van Heusen in Men category:
+Original Price: Rs. 2049
+Discount: (79% OFF)
+After discount: Rs. 430
+Link: https://www.myntra.comtshirts/highlander/highlander-men-typography-printed-round-neck-cotton-relaxed-fit-t-shirt/33033137/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1949
+Discount: (79% OFF)
+After discount: Rs. 409
+Link: https://www.myntra.comtshirts/highlander/highlander-men-round-neck-half-sleeve-oversized-embellished-t--shirt/31965750/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (75% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtshirts/highlander/highlander-men-round-neck-half-sleeve-oversized-t-shirt/32508035/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: [71%]
+After discount: Rs. 869
+Link: https://www.myntra.comtshirts/highlander/highlander-men-self-design-round-neck-cotton-t-shirt/33368658/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (71% OFF)
+After discount: Rs. 434
+Link: https://www.myntra.comtshirts/nobero/nobero-men-graphic-printed-pure-cotton-t-shirt/29958637/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (71% OFF)
+After discount: Rs. 434
+Link: https://www.myntra.comtshirts/nobero/nobero-geometric-printed-round-neck-cotton-t-shirt/30397298/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (70% OFF)
+After discount: Rs. 539
+Link: https://www.myntra.comtshirts/nobero/nobero-men-printed-t-shirt/31715526/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (70% OFF)
+After discount: Rs. 539
+Link: https://www.myntra.comtshirts/nobero/nobero-men-printed-t-shirt/31715526/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtshirts/nobero/nobero-men-typography-printed-t-shirt/33055564/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtshirts/nobero/nobero-men-typography-printed-t-shirt/33055567/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtshirts/nobero/nobero-men-printed-t-shirt/32747744/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtshirts/nobero/nobero-men-printed-t-shirt/30736069/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtshirts/nobero/nobero-men-typography-printed-t-shirt/33055568/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (69% OFF)
+After discount: Rs. 464
+Link: https://www.myntra.comtshirts/nobero/nobero-men-typography-printed-pockets-t-shirt/28137936/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 949
+Discount: (69% OFF)
+After discount: Rs. 294
+Link: https://www.myntra.comtshirts/highlander/highlander-men-typography-printed-round-neck-oversized-t-shirt/31253731/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (68% OFF)
+After discount: Rs. 959
+Link: https://www.myntra.comtshirts/stellers/stellers-mandarin-collar-t-shirt/26443602/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (68% OFF)
+After discount: Rs. 959
+Link: https://www.myntra.comtshirts/stellers/stellers-mandarin-collar-t-shirt/26443602/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2990
+Discount: (68% OFF)
+After discount: Rs. 956
+Link: https://www.myntra.comtshirts/stellers/stellers-men-solid-polo-collar-t-shirt/31998393/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [67%]
+After discount: Rs. 649
+Link: https://www.myntra.comtshirts/nobero/nobero-men-comfort-pique-solid-round-neck-t-shirt/33854506/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: [66%]
+After discount: Rs. 469
+Link: https://www.myntra.comtshirts/highlander/highlander-men-blue-typography-printed-slim-fit-t-shirt/19647836/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: [66%]
+After discount: Rs. 398
+Link: https://www.myntra.comtshirts/veirdo/veirdo-men-typography-printed-round-neck-pure-cotton-oversized-t-shirt/30516200/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (65% OFF)
+After discount: Rs. 979
+Link: https://www.myntra.comtshirts/stellers/stellers-men-solid-polo-collar-cotton-t-shirt/30430647/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (65% OFF)
+After discount: Rs. 979
+Link: https://www.myntra.comtshirts/stellers/stellers-men-solid-polo-collar-cotton-t-shirt/30430647/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 849
+Discount: (65% OFF)
+After discount: Rs. 297
+Link: https://www.myntra.comtshirts/highlander/highlander-men-navy-blue-printed-slim-fit-t-shirt/16696250/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: [63%]
+After discount: Rs. 549
+Link: https://www.myntra.comtshirts/nobero/nobero-round-neck-short-sleeves-oversized-cotton-t-shirt/26710888/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (59% OFF)
+After discount: Rs. 655
+Link: https://www.myntra.comtshirts/powerlook/powerlook-men-self-design-polo-collar-cotton-t-shirt/30854049/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: [55%]
+After discount: Rs. 449
+Link: https://www.myntra.comtshirts/highlander/highlander-men-round-neck-knitted-textured-dropshoulder-oversized-fit-tshirt/31815739/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (53% OFF)
+After discount: Rs. 704
+Link: https://www.myntra.comtshirts/flying+machine/flying-machine-unisex-typography-printed-drop-shoulder-sleeves-pure-cotton-t-shirt/31598708/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 599
+Discount: (50% OFF)
+After discount: Rs. 551
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-short-sleeves-slim-fit-t-shirt/23486740/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (50% OFF)
+After discount: Rs. 649
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-geometric-printed-crew-neck-slim-fit-t-shirt/26324468/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (50% OFF)
+After discount: Rs. 649
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-round-neck-short-sleeves-slim-fit-sports-t-shirt/25842014/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (50% OFF)
+After discount: Rs. 499
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-navy-blue-striped-t-shirt/18720152/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (50% OFF)
+After discount: Rs. 749
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-round-neck-short-sleeves-slim-fit-sports-t-shirt/25850838/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (50% OFF)
+After discount: Rs. 749
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-polo-collar-t-shirt/29400072/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 3999
+Discount: (50% OFF)
+After discount: Rs. 1999
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/28844884/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2899
+Discount: (50% OFF)
+After discount: Rs. 1449
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-colourblocked-polo-collar-t-shirt/26772254/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: (50% OFF)
+After discount: Rs. 1249
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/28117498/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (50% OFF)
+After discount: Rs. 1149
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-striped-polo-collar-cotton-t-shirt/27930304/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (50% OFF)
+After discount: Rs. 649
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-graphic-printed-cotton-t-shirt/23421844/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (50% OFF)
+After discount: Rs. 999
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-t-shirt/28517878/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (50% OFF)
+After discount: Rs. 1149
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-striped-polo-collar-short-sleeves-t-shirt/28650680/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (50% OFF)
+After discount: Rs. 899
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-red--black-striped-polo-collar-t-shirt/19660934/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (50% OFF)
+After discount: Rs. 1149
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-printed-polo-collar-short-sleeves-t-shirt/28650676/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (50% OFF)
+After discount: Rs. 899
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-round-neck-raglan-sleeves-slim-fit-t-shirt/24235400/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (50% OFF)
+After discount: Rs. 749
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-printed-t-shirt/28092956/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1049
+Discount: (50% OFF)
+After discount: Rs. 524
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-short-sleeves-slim-fit-t-shirt/23486754/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (50% OFF)
+After discount: Rs. 649
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-raglan-sleeves-t-shirt/23421846/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (50% OFF)
+After discount: Rs. 649
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-graphic-printed-crew-neck-slim-fit-t-shirt/26324436/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2599
+Discount: (50% OFF)
+After discount: Rs. 1299
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/30548078/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (50% OFF)
+After discount: Rs. 899
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-round-neck-short-sleeve-slim-fit-t-shirt/24890694/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (50% OFF)
+After discount: Rs. 899
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-pure-cotton-printed-henley-neck-t-shirt/22910402/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (50% OFF)
+After discount: Rs. 899
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-micro-ditsy-printed-mandarin-collar-pure-cotton-t-shirt/23379368/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2599
+Discount: (50% OFF)
+After discount: Rs. 1299
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-mandarin-collar-t-shirt/27982206/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (50% OFF)
+After discount: Rs. 649
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-orange-applique-slim-fit-t-shirt/18318084/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (50% OFF)
+After discount: Rs. 999
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-striped-polo-collar-casual-t-shirt/24453488/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (50% OFF)
+After discount: Rs. 899
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-polo-collar-raglan-sleeves-slim-fit-t-shirt/23486756/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (50% OFF)
+After discount: Rs. 1149
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/27736600/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (50% OFF)
+After discount: Rs. 899
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-polo-collar-t-shirt/23486746/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 649
+Discount: (45% OFF)
+After discount: Rs. 356
+Link: https://www.myntra.comlounge-tshirts/levis/levis-men-soft-pure-cotton-round-neck-half-sleeve-tshirt/12027436/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (45% OFF)
+After discount: Rs. 549
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-colourblocked-slim-fit-t-shirt/26324464/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (45% OFF)
+After discount: Rs. 824
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-printed-pockets-t-shirt/27982342/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (45% OFF)
+After discount: Rs. 714
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-slim-fit-sports-t-shirt/25104250/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (45% OFF)
+After discount: Rs. 1099
+Link: https://www.myntra.comtshirts/powerlook/powerlook-men-striped-polo-collar-cotton-t-shirt/30957753/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (45% OFF)
+After discount: Rs. 824
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-typography-printed-applique-slim-fit-t-shirt/28117484/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (45% OFF)
+After discount: Rs. 879
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-graphic-printed-slim-fit-t-shirt/26324444/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (44% OFF)
+After discount: Rs. 1007
+Link: https://www.myntra.comtshirts/powerlook/powerlook-men-self-design-polo-collar-cotton-t-shirt/32677536/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2599
+Discount: (40% OFF)
+After discount: Rs. 1559
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-casual-t-shirt/29300450/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1099
+Discount: (40% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/29376150/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (40% OFF)
+After discount: Rs. 1799
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-checked-polo-collar-pure-cotton-t-shirt/26450072/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (40% OFF)
+After discount: Rs. 1679
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-paisley-printed-polo-collar-pure-cotton-t-shirt/25386630/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (30% OFF)
+After discount: Rs. 2099
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-checked-polo-collar-cotton-t-shirt/29752530/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (30% OFF)
+After discount: Rs. 1399
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-polo-collar-short-sleeves-casual-t-shirt/27288840/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (30% OFF)
+After discount: Rs. 1609
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-printed-polo-collar-pockets-t-shirt/27982216/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (30% OFF)
+After discount: Rs. 1609
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-polo-collar-short-sleeves-regular-fit-t-shirt/28408722/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (30% OFF)
+After discount: Rs. 1609
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-geometric-printed-polo-collar-cotton-t-shirt/28408724/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (30% OFF)
+After discount: Rs. 2099
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polo-collar-cotton-pockets-t-shirt/29682370/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (30% OFF)
+After discount: Rs. 2099
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-self-design-polo-collar-checked-t-shirt/29954023/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (30% OFF)
+After discount: Rs. 1959
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/30548080/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (30% OFF)
+After discount: Rs. 2099
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-checked-polo-collar-cotton-t-shirt/31248278/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (30% OFF)
+After discount: Rs. 1959
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/30337921/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2599
+Discount: (30% OFF)
+After discount: Rs. 1819
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/30953761/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (30% OFF)
+After discount: Rs. 1609
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-geometric-printed-polo-collar-cotton-t-shirt/30649719/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2599
+Discount: (25% OFF)
+After discount: Rs. 1949
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/31125961/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 3599
+Discount: (25% OFF)
+After discount: Rs. 2699
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-striped-polo-collar-t-shirt/31792467/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (10% OFF)
+After discount: Rs. 2699
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/31543014/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (10% OFF)
+After discount: Rs. 2699
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polo-collar-t-shirt/33068800/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-printed-polo-collar-pockets-t-shirt/33489483/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-printed-polo-collar-t-shirt/33068804/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-slim-fit-t-shirt/33329872/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-solid-polo-collar-cotton-t-shirt/32525538/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-printed-polo-collar-pockets-t-shirt/33489484/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-printed-polo-collar-pockets-t-shirt/33068793/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polka-dot-printed-polo-collar-pockets-t-shirt/33203112/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/33203110/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-polo-collar-pockets-t-shirt/33203109/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2599
+Discount: (10% OFF)
+After discount: Rs. 2339
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-mandarin-collar-t-shirt/27982208/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (10% OFF)
+After discount: Rs. 2699
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-printed-polo-collar-applique-t-shirt/31543012/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: (10% OFF)
+After discount: Rs. 2519
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-geometric-printed-polo-collar-cotton-slim-fit-t-shirt/33329876/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2599
+Discount: (10% OFF)
+After discount: Rs. 2339
+Link: https://www.myntra.comtshirts/van+heusen/van-heusen-men-striped-polo-collar-pockets-t-shirt/33068807/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  And I print the final product list to the console                         # steps.Myntra.printSortedResults()
+]]></system-out>
+  </testcase>
+  <testcase name="Find discounted Tops for DressBerry under Women category" classname="Get discounted products from Myntra based on gender, type, and brand #2" time="16.827">
+    <system-out><![CDATA[
+Scenario Outline: Find discounted Tops for DressBerry under Women category # src/test/resources/features/pos.feature:15
+  Given I open the Myntra website at "https://www.myntra.com"              # steps.Myntra.openWebPage(java.lang.String)
+  When I select "Women" as the gender                                      # steps.Myntra.chooseGender(java.lang.String)
+  And I choose "Tops" as the product category                              # steps.Myntra.chooseProductType(java.lang.String)
+  And I apply the brand filter for "DressBerry"                            # steps.Myntra.applyBrandFilter(java.lang.String)
+  Then I collect the products that are on discount from maximum 2 pages    # steps.Myntra.collectDiscountedProducts(int)
+  And I sort those products based on discount in descending order          # steps.Myntra.sortByDiscount()
+Discounted Tops for DressBerry in Women category:
+Original Price: Rs. 1499
+Discount: (82% OFF)
+After discount: Rs. 269
+Link: https://www.myntra.comtops/dressberry/dressberry-women-ribbed-cotton-tank-crop-top/32598841/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1099
+Discount: (82% OFF)
+After discount: Rs. 197
+Link: https://www.myntra.comtops/dressberry/dressberry-women-round-neck-striped-regular-top/33841923/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1050
+Discount: (81% OFF)
+After discount: Rs. 199
+Link: https://www.myntra.comtops/dressberry/dressberry-floral-print-sweetheart-neck-puff-sleeve-crop-top/33847892/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (80% OFF)
+After discount: Rs. 279
+Link: https://www.myntra.comtops/dressberry/dressberry-women-ruffles-wrap-top/32582549/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2099
+Discount: (77% OFF)
+After discount: Rs. 482
+Link: https://www.myntra.comtops/dressberry/dressberry-red-floral-printed-v-neck-a-line-cotton-top/24349818/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2099
+Discount: (77% OFF)
+After discount: Rs. 482
+Link: https://www.myntra.comtops/dressberry/dressberry-print-ethnic-pure-cotton-top/24519178/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (76% OFF)
+After discount: Rs. 311
+Link: https://www.myntra.comtops/dressberry/dressberry-black-floral-pleated-shirt-style-top/9932003/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (76% OFF)
+After discount: Rs. 359
+Link: https://www.myntra.comtops/dressberry/dressberry-ikat-print-shirt-style-top/23879388/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (76% OFF)
+After discount: Rs. 359
+Link: https://www.myntra.comtops/dressberry/dressberry-seersucker-extended-sleeves-top/27220012/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (76% OFF)
+After discount: Rs. 335
+Link: https://www.myntra.comtops/dressberry/dressberry-magenta--beige-solid-ecovero-embroidered-detail-a-line-top/13645730/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (76% OFF)
+After discount: Rs. 407
+Link: https://www.myntra.comtops/dressberry/dressberry-seersucker-tie-up-neck-puff-sleeves-top/27219810/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (76% OFF)
+After discount: Rs. 359
+Link: https://www.myntra.comtops/dressberry/dressberry-floral-print-cotton-shirt-style-top/25982254/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (76% OFF)
+After discount: Rs. 287
+Link: https://www.myntra.comtops/dressberry/dressberry-printed-a-line-top/25982140/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (76% OFF)
+After discount: Rs. 407
+Link: https://www.myntra.comtops/dressberry/dressberry-peter-pan-collar-seersucker-top/27220034/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1749
+Discount: (75% OFF)
+After discount: Rs. 437
+Link: https://www.myntra.comtops/tokyo+talkies/tokyo-talkies-checked-cotton-top/30761027/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (75% OFF)
+After discount: Rs. 499
+Link: https://www.myntra.comtops/dressberry/dressberry-women-cotton-embroidered-peplum-crop-top/31543591/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2329
+Discount: (75% OFF)
+After discount: Rs. 582
+Link: https://www.myntra.comtops/dressberry/dressberry-women-self-design-tie-up-neck-top/30843317/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (75% OFF)
+After discount: Rs. 349
+Link: https://www.myntra.comtops/dressberry/dressberry-women-puff-sleeves-ruffles-wrap-top/32582583/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 3099
+Discount: (75% OFF)
+After discount: Rs. 774
+Link: https://www.myntra.comtops/dressberry/dressberry-women-self-design-v-neck-top/31000039/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (75% OFF)
+After discount: Rs. 499
+Link: https://www.myntra.comtops/dressberry/dressberry-halter-neck-cotton-top/32773517/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (75% OFF)
+After discount: Rs. 311
+Link: https://www.myntra.comtops/dressberry/dressberry-floral-printed-gathered-square-neck-peplum-top/30038040/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (75% OFF)
+After discount: Rs. 349
+Link: https://www.myntra.comtops/dressberry/dressberry-typography-printed-shirt-collar-top/29920240/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (75% OFF)
+After discount: Rs. 499
+Link: https://www.myntra.comtops/dressberry/dressberry-women-self-design-peplum-crop-top/31543611/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (74% OFF)
+After discount: Rs. 467
+Link: https://www.myntra.comtops/dressberry/dressberry-crinkled-cuffed-sleeve-top/27219826/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (74% OFF)
+After discount: Rs. 311
+Link: https://www.myntra.comtops/dressberry/dressberry-printed-square-neck-top/23977666/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (72% OFF)
+After discount: Rs. 391
+Link: https://www.myntra.comtops/corsica/corsica-indie-floral-printed-vest/32043469/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (72% OFF)
+After discount: Rs. 559
+Link: https://www.myntra.comtops/dressberry/dressberry-floral-print-mandarin-collar-shirt-style-top/29181410/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1195
+Discount: (72% OFF)
+After discount: Rs. 334
+Link: https://www.myntra.comtops/dressberry/dressberry-women-solid-v-neck-top/32625897/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1549
+Discount: (72% OFF)
+After discount: Rs. 433
+Link: https://www.myntra.comtops/dressberry/dressberry-round-neck-three-quarter-sleeves-top/24880870/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1295
+Discount: (72% OFF)
+After discount: Rs. 362
+Link: https://www.myntra.comtops/dressberry/dressberry-women-solid-mandarin-collar-top/32625771/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1549
+Discount: (72% OFF)
+After discount: Rs. 433
+Link: https://www.myntra.comtops/dressberry/dressberry-magenta-v-neck-crepe-top/24880774/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (72% OFF)
+After discount: Rs. 475
+Link: https://www.myntra.comtops/dressberry/dressberry-shirt-collar-fitted-crop-top/28236706/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1195
+Discount: (72% OFF)
+After discount: Rs. 334
+Link: https://www.myntra.comtops/dressberry/dressberry-women-solid-round-neck-top/32625902/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1295
+Discount: (72% OFF)
+After discount: Rs. 362
+Link: https://www.myntra.comtops/dressberry/dressberry-women-mandarin-collar-crepe-blouson-top/32625808/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (72% OFF)
+After discount: Rs. 279
+Link: https://www.myntra.comtops/dressberry/dressberry-print-flared-sleeve-top/25982166/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (72% OFF)
+After discount: Rs. 335
+Link: https://www.myntra.comtops/dressberry/dressberry-women-horizontal-stripes-crop-top/33604070/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (72% OFF)
+After discount: Rs. 447
+Link: https://www.myntra.comtops/dressberry/dressberry-printed-ruched-sleeve-top/25981994/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1549
+Discount: (72% OFF)
+After discount: Rs. 433
+Link: https://www.myntra.comtops/dressberry/dressberry-green-notched-round-neck-top/24880840/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (71% OFF)
+After discount: Rs. 492
+Link: https://www.myntra.comtops/dressberry/dressberry-yellow-ethnic-motifs-printed-shirt-collar-puff-sleeve-shirt-style-top/29085346/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (71% OFF)
+After discount: Rs. 579
+Link: https://www.myntra.comtops/dressberry/dressberry-abstract-printed-top/29070940/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtops/dressberry/dressberry-seersucker-puff-sleeve-bubble-hem-top/26697162/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 699
+Discount: (70% OFF)
+After discount: Rs. 209
+Link: https://www.myntra.comtops/dressberry/dressberry-misty-white-print-cotton-hollaback-neck-it-is-crop-tank-top/20665284/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: (70% OFF)
+After discount: Rs. 749
+Link: https://www.myntra.comtops/dressberry/dressberry-women-printed-lapel-collar-top/32118247/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtops/dressberry/dressberry-seersucker-puff-sleeve-bubble-hem-top/26697280/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (70% OFF)
+After discount: Rs. 389
+Link: https://www.myntra.comtops/dressberry/dressberry-women-navy-blue--orange-floral-print-top/11182738/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtops/dressberry/dressberry-floral-printed-linen-vest-top/33395006/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: (70% OFF)
+After discount: Rs. 749
+Link: https://www.myntra.comtops/dressberry/dressberry-women-modern-opaque-printed-casual-shirt/29877450/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (70% OFF)
+After discount: Rs. 359
+Link: https://www.myntra.comtops/dressberry/dressberry-bell-sleeves-ribbed-cut-out-top/28850760/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtops/dressberry/dressberry-seersucker-puff-sleeve-bubble-hem-top/26697162/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (70% OFF)
+After discount: Rs. 689
+Link: https://www.myntra.comtops/dressberry/dressberry-pink-floral-print-mandarin-collar-top/23384954/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (70% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comtops/dressberry/dressberry-women-round-neck-crop-top/31895050/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (70% OFF)
+After discount: Rs. 539
+Link: https://www.myntra.comtops/dressberry/dressberry-ruffles-knitted-top/27219766/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (70% OFF)
+After discount: Rs. 419
+Link: https://www.myntra.comtops/dressberry/dressberry-floral-print-paneled-puff-sleeve-crop-top/31122953/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (70% OFF)
+After discount: Rs. 419
+Link: https://www.myntra.comtops/dressberry/dressberry-smocked-checked-top/31123230/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2399
+Discount: (68% OFF)
+After discount: Rs. 767
+Link: https://www.myntra.comtops/dressberry/dressberry-cotton-round-neck-cuffed-sleeves-embroidered-opaque-casual-top/28165266/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (68% OFF)
+After discount: Rs. 383
+Link: https://www.myntra.comtops/dressberry/dressberry-puff-sleeve-peplum-top/31136829/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 699
+Discount: (68% OFF)
+After discount: Rs. 223
+Link: https://www.myntra.comtops/dressberry/dressberry-olive-green-solid-top/17485970/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (68% OFF)
+After discount: Rs. 383
+Link: https://www.myntra.comtops/dressberry/dressberry-women-green--off-white-printed-boxy-top/16184036/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (68% OFF)
+After discount: Rs. 319
+Link: https://www.myntra.comtops/dressberry/dressberry-printed-puff-sleeves-monochrome-top/25982260/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 799
+Discount: (68% OFF)
+After discount: Rs. 255
+Link: https://www.myntra.comtops/dressberry/dressberry-black-pure-cotton-ruched-top/19018078/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2399
+Discount: (68% OFF)
+After discount: Rs. 767
+Link: https://www.myntra.comtops/dressberry/dressberry-lime-green-floral-embroidered-round-neck-cuffed-sleeves-a-line-top/28165262/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: [67%]
+After discount: Rs. 393
+Link: https://www.myntra.comtops/slenor/slenor-floral-print-georgette-peplum-top/28090622/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 899
+Discount: (67% OFF)
+After discount: Rs. 296
+Link: https://www.myntra.comtops/dressberry/dressberry-ribbed-polo-fitted-top/32522988/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 699
+Discount: (67% OFF)
+After discount: Rs. 230
+Link: https://www.myntra.comtops/dressberry/dressberry-square-neck-top/32016942/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comtops/dressberry/dressberry-floral-print-puff-sleeve-georgette-peplum-top/31327036/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (66% OFF)
+After discount: Rs. 543
+Link: https://www.myntra.comtops/dressberry/dressberry-maroon-solid-v-neck-peplum-top/19018156/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (66% OFF)
+After discount: Rs. 475
+Link: https://www.myntra.comtops/dressberry/dressberry-pink-pure-cotton-embroidered-regular-top/14066122/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (66% OFF)
+After discount: Rs. 407
+Link: https://www.myntra.comtops/dressberry/dressberry-puff-sleeve-peplum-top/31136643/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (66% OFF)
+After discount: Rs. 509
+Link: https://www.myntra.comtops/dressberry/dressberry-top/32522912/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 699
+Discount: (66% OFF)
+After discount: Rs. 237
+Link: https://www.myntra.comtops/dressberry/dressberry-v-neck-pure-cotton-regular-top/19490442/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1099
+Discount: (65% OFF)
+After discount: Rs. 384
+Link: https://www.myntra.comtops/dressberry/dressberry-self-striped-full-sleeves-top/28850718/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 699
+Discount: (65% OFF)
+After discount: Rs. 244
+Link: https://www.myntra.comtops/dressberry/dressberry-black-solid-puff-sleeves-top/17486034/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (65% OFF)
+After discount: Rs. 629
+Link: https://www.myntra.comtops/dressberry/dressberry-pleated-top/31586799/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (64% OFF)
+After discount: Rs. 539
+Link: https://www.myntra.comtops/dressberry/dressberry-red--blue-floral-embroidered-keyhole-neck-puff-sleeve-empire-top/13614784/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 699
+Discount: (64% OFF)
+After discount: Rs. 251
+Link: https://www.myntra.comtops/dressberry/dressberry-solid-v-neck-cotton-top/19490412/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (63% OFF)
+After discount: Rs. 739
+Link: https://www.myntra.comtops/dressberry/dressberry-floral-embroidered-puff-sleeve-top/23954524/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (62% OFF)
+After discount: Rs. 607
+Link: https://www.myntra.comtops/dressberry/dressberry-green-self-design-lace-inserts-flared-sleeves-top/18900100/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (62% OFF)
+After discount: Rs. 493
+Link: https://www.myntra.comtops/dressberry/dressberry-women-v-neck-self-design-tie-ups-top/32662308/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (61% OFF)
+After discount: Rs. 545
+Link: https://www.myntra.comtops/dressberry/dressberry-green-floral-tie-up-neck-extended-sleeves-schiffli-cotton-regular-top/14066152/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 499
+Discount: (61% OFF)
+After discount: Rs. 194
+Link: https://www.myntra.comtops/dressberry/dressberry-scoop-neck-crop-top/32016849/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (60% OFF)
+After discount: Rs. 759
+Link: https://www.myntra.comtops/dressberry/dressberry-women-solid-regular-cotton-top/33842872/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (60% OFF)
+After discount: Rs. 759
+Link: https://www.myntra.comtops/dressberry/dressberry-women-printed-puff-sleeve-cotton-top/33842861/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (60% OFF)
+After discount: Rs. 719
+Link: https://www.myntra.comtops/dressberry/dressberry--women-ribbed-round-neck-sleevelss-top/33601906/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (60% OFF)
+After discount: Rs. 759
+Link: https://www.myntra.comtops/dressberry/dressberry-women-self-design-embroidered-top/33842857/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (60% OFF)
+After discount: Rs. 759
+Link: https://www.myntra.comtops/dressberry/dressberry-women-embroidered-cotton-top/33842812/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (60% OFF)
+After discount: Rs. 759
+Link: https://www.myntra.comtops/dressberry/dressberry-women-v-neck-puff-sleeves-cotton-top/33842763/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (60% OFF)
+After discount: Rs. 759
+Link: https://www.myntra.comtops/dressberry/dressberry-women-ethnic-motifs-embroidered-puff-sleeve-cotton-top/33842865/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 499
+Discount: (59% OFF)
+After discount: Rs. 204
+Link: https://www.myntra.comtops/dressberry/dressberry-ruched-effect-v-neck-top/32016889/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 499
+Discount: (58% OFF)
+After discount: Rs. 209
+Link: https://www.myntra.comtops/dressberry/dressberry-contrast-detail-fitted-top/32016958/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 499
+Discount: (58% OFF)
+After discount: Rs. 209
+Link: https://www.myntra.comtops/dressberry/dressberry-square-neck-top/32016925/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1449
+Discount: (57% OFF)
+After discount: Rs. 623
+Link: https://www.myntra.comtops/dressberry/dressberry-green-crochet-detail-bell-sleeve-regular-top/13645742/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1099
+Discount: (55% OFF)
+After discount: Rs. 494
+Link: https://www.myntra.comtops/dressberry/dressberry-florals-puff-sleeves-top/31007865/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (51% OFF)
+After discount: Rs. 587
+Link: https://www.myntra.comtops/dressberry/dressberry-9-to-5-edit-double-breasted-top/28191388/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (51% OFF)
+After discount: Rs. 587
+Link: https://www.myntra.comtops/dressberry/dressberry-workspace-lbd-edit-double-fronted-top/28191482/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 899
+Discount: (51% OFF)
+After discount: Rs. 440
+Link: https://www.myntra.comtops/dressberry/dressberry-sunset-silhouette-cami-crop-top/29075332/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 899
+Discount: (51% OFF)
+After discount: Rs. 440
+Link: https://www.myntra.comtops/dressberry/dressberry-double-breasted-corpcore-classics-shirt-style-top/27575048/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 799
+Discount: (51% OFF)
+After discount: Rs. 391
+Link: https://www.myntra.comtops/dressberry/dressberry-summer-basics-crop-shirt-style-top/27575222/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (51% OFF)
+After discount: Rs. 636
+Link: https://www.myntra.comtops/dressberry/dressberry-english-garden-escape-smocked-twisted-crop-top/28191278/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 599
+Discount: (51% OFF)
+After discount: Rs. 293
+Link: https://www.myntra.comtops/dressberry/dressberry-abstract-print-tie-up-detail-front-open-crop-wrap-top/31024455/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 799
+Discount: (51% OFF)
+After discount: Rs. 391
+Link: https://www.myntra.comtops/dressberry/dressberry-dobby-ruffled-bardot-crop-top/31117613/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  And I print the final product list to the console                        # steps.Myntra.printSortedResults()
+]]></system-out>
+  </testcase>
+  <testcase name="Find discounted Shirts for Roadster under Men category" classname="Get discounted products from Myntra based on gender, type, and brand #2" time="18.621">
+    <system-out><![CDATA[
+Scenario Outline: Find discounted Shirts for Roadster under Men category # src/test/resources/features/pos.feature:16
+  Given I open the Myntra website at "https://www.myntra.com"            # steps.Myntra.openWebPage(java.lang.String)
+  When I select "Men" as the gender                                      # steps.Myntra.chooseGender(java.lang.String)
+  And I choose "Shirts" as the product category                          # steps.Myntra.chooseProductType(java.lang.String)
+  And I apply the brand filter for "Roadster"                            # steps.Myntra.applyBrandFilter(java.lang.String)
+  Then I collect the products that are on discount from maximum 3 pages  # steps.Myntra.collectDiscountedProducts(int)
+  And I sort those products based on discount in descending order        # steps.Myntra.sortByDiscount()
+Discounted Shirts for Roadster in Men category:
+Original Price: Rs. 2999
+Discount: (81% OFF)
+After discount: Rs. 569
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-relaxed-fit-spread-collar-casual-pure-cotton-shirt/28185350/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [80%]
+After discount: Rs. 399
+Link: https://www.myntra.comshirts/highlander/highlander-men-blue-solid-long-roll-up-sleeves-slim-fit-casual-shirt/19694408/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (76% OFF)
+After discount: Rs. 551
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue--beige-regular-fit-checked-casual-shirt/6849354/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (73% OFF)
+After discount: Rs. 458
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-men-green-geometric-printed-pure-cotton-casual-shirt/13663538/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2199
+Discount: (72% OFF)
+After discount: Rs. 615
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-regular-fit-solid-chambray-casual-shirt/9951575/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (72% OFF)
+After discount: Rs. 559
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-faded-denim-shirt/1491652/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (72% OFF)
+After discount: Rs. 531
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-pure-cotton-solid-spread-collar-casual-shirt/14878076/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: (71% OFF)
+After discount: Rs. 724
+Link: https://www.myntra.comshirts/roadster/roadster-men-spread-collar-linen--cotton-premium-casual-shirt-with-curved-hem-/30912371/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: (71% OFF)
+After discount: Rs. 724
+Link: https://www.myntra.comshirts/roadster/roadster-men-spread-collar-linen--cotton-premium-casual-shirt-with-curved-hem-/30912371/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2199
+Discount: (70% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-printed-striped-relaxed-fit-casual-shirt/30588211/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: (70% OFF)
+After discount: Rs. 749
+Link: https://www.myntra.comshirts/roadster/roadster-men-relaxed-fit-casual-shirt/31197959/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2399
+Discount: (70% OFF)
+After discount: Rs. 719
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-chevron-pure-cotton-casual-shirt/30588144/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2099
+Discount: (70% OFF)
+After discount: Rs. 629
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-regular-fit-solid-opaque-pure-cotton-casual-denim-shirt-with-pocket/14878294/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: [69%]
+After discount: Rs. 549
+Link: https://www.myntra.comshirts/highlander/highlander-grey-slim-fit-striped-casual-cotton-shirt/23684570/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (69% OFF)
+After discount: Rs. 433
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-solid-pure-cotton-casual-shirt/21988816/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (69% OFF)
+After discount: Rs. 588
+Link: https://www.myntra.comshirts/roadster/roadster-men-green--navy-blue-checked-casual-shirt/9680385/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (69% OFF)
+After discount: Rs. 619
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-full-sleeve-shirts/29936240/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (69% OFF)
+After discount: Rs. 619
+Link: https://www.myntra.comshirts/roadster/roadster-men-green--beige-checked-casual-shirt/1667040/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2199
+Discount: (69% OFF)
+After discount: Rs. 681
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-colourblocked-relaxed-cotton-casual-shirt/30942387/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (69% OFF)
+After discount: Rs. 619
+Link: https://www.myntra.comshirts/roadster/roadster-men-striped-pure-cotton-casual-shirt/31322463/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (68% OFF)
+After discount: Rs. 575
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-slim-fit-faded-denim-shirt/2130555/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2099
+Discount: (67% OFF)
+After discount: Rs. 692
+Link: https://www.myntra.comshirts/mast+%26+harbour/mast--harbour-men-standard-striped-casual-shirt/27206334/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-casual-shirts/29936237/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-half-sleeve-shirts/29936227/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-full-sleeve-shirts/29936239/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-half-sleeve-shirts/29936223/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-cotton-full-sleeve-shirts/29936220/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-full-sleeve-shirts/29936238/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-full-sleeve-shirts/29936235/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-half-sleeve-shirts/29936229/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/-the-roadster-lifestyle-co-pure-cotton-casual-shirts/29936236/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/-the-roadster-lifestyle-co-pure-cotton-casual-shirts/29936232/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (67% OFF)
+After discount: Rs. 560
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-regular-fit-opaque-solid-casual-shirt/14878000/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: (67% OFF)
+After discount: Rs. 824
+Link: https://www.myntra.comshirts/roadster/roadster-men-relaxed-fit-casual-shirt/31197987/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2999
+Discount: (67% OFF)
+After discount: Rs. 989
+Link: https://www.myntra.comshirts/roadster/roadster-men-oversized-pure-cotton-denim-casual-shirt/28355162/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (67% OFF)
+After discount: Rs. 494
+Link: https://www.myntra.comshirts/roadster/roadster-men-sea-green--green-slim-fit-solid-casual-shirt/11325946/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (67% OFF)
+After discount: Rs. 659
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-half-sleeve-shirts/29936234/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (66% OFF)
+After discount: Rs. 577
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue--olive-green-regular-fit-checked-casual-shirt/11156306/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (66% OFF)
+After discount: Rs. 577
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-solid-washed-cotton-denim-shirt/15615862/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (66% OFF)
+After discount: Rs. 509
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-navy-blue--grey-checked-pure-cotton-casual-shirt/18288878/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (66% OFF)
+After discount: Rs. 509
+Link: https://www.myntra.comshirts/roadster/roadster-men-beige-mandarin-collar-roll-up-sleeves-casual-shirt/14640884/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (66% OFF)
+After discount: Rs. 577
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-pure-cotton-checked-casual-shirt/21990862/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (66% OFF)
+After discount: Rs. 577
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue--red-regular-fit-checked-casual-shirt/12947196/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: (66% OFF)
+After discount: Rs. 849
+Link: https://www.myntra.comshirts/roadster/roadster-men-relaxed-fit-casual-shirt/31197980/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (66% OFF)
+After discount: Rs. 543
+Link: https://www.myntra.comshirts/roadster/roadster-men-green-solid-pure-cotton-casual-shirt/14878034/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (65% OFF)
+After discount: Rs. 699
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-slim-fit-faded-casual-denim-shirt/2284633/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (65% OFF)
+After discount: Rs. 664
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-cotton-linen-casual-shirt-with-roll-up-sleeves/11896042/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (65% OFF)
+After discount: Rs. 559
+Link: https://www.myntra.comshirts/roadster/roadster-men-charcoal-pure-cotton-casual-shirt/12919638/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (65% OFF)
+After discount: Rs. 699
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-full-sleeve-shirts/29936231/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1099
+Discount: (65% OFF)
+After discount: Rs. 384
+Link: https://www.myntra.comshirts/roadster/roadster-men-teal-blue-regular-fit-solid-casual-shirt/11326978/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (65% OFF)
+After discount: Rs. 489
+Link: https://www.myntra.comshirts/roadster/roadster-men-charcoal-regular-fit-solid-casual-shirt/11896084/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2199
+Discount: (65% OFF)
+After discount: Rs. 769
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-pure-cotton-checked-textured-relaxed-fit-shirt/31305022/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (64% OFF)
+After discount: Rs. 467
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-pure-cotton-solid-casual-shirt/16892244/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (64% OFF)
+After discount: Rs. 683
+Link: https://www.myntra.comshirts/roadster/roadster-men-relaxed-solid-casual-shirt/27321344/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (64% OFF)
+After discount: Rs. 683
+Link: https://www.myntra.comshirts/roadster/roadster-men-striped-cotton-linen-casual-shirt/25542380/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (64% OFF)
+After discount: Rs. 719
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-cotton-linen-casual-shirt/8217987/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (64% OFF)
+After discount: Rs. 575
+Link: https://www.myntra.comshirts/roadster/roadster-men-teal-blue--olive-brown-regular-fit-checked-casual-shirt/11896290/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (64% OFF)
+After discount: Rs. 827
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-solid-relaxed-fit-hooded-pure-cotton-casual-shirt/21986600/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (64% OFF)
+After discount: Rs. 575
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-regular-fit-solid-casual-shirt-with-half-button-placket/11008584/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (63% OFF)
+After discount: Rs. 739
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-checked-relaxed-fit-cotton-shirt/31379425/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (63% OFF)
+After discount: Rs. 591
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue--grey-checked-casual-shirt/7189993/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (63% OFF)
+After discount: Rs. 665
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-regular-fit-solid-casual-shirt/7255992/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (63% OFF)
+After discount: Rs. 369
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-pure-cotton-casual-shirt/32023759/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (63% OFF)
+After discount: Rs. 369
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-relaxed-fit-drop-shoulder-sleeves-pure-cotton-casual-shirt/32023767/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2199
+Discount: (63% OFF)
+After discount: Rs. 813
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-self-design-relaxed-fit-pure-cotton-casual-shirt/31305015/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (62% OFF)
+After discount: Rs. 645
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-cotton-linen-casual-shirt/8218061/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (62% OFF)
+After discount: Rs. 455
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-cotton-casual-shirt/11903976/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (61% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--black-checked-casual-shirt/6696340/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (61% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-grey--white-checked-pure-cotton-casual-shirt/18288880/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (61% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--black-checked-casual-shirt/13793890/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (60% OFF)
+After discount: Rs. 599
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-regular-fit-solid-casual-shirt/12442722/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2300
+Discount: (60% OFF)
+After discount: Rs. 920
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-vertical-striped-button-down-collar-cotton-casual-shirt/33360299/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (60% OFF)
+After discount: Rs. 559
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon-solid-slim-fit-casual-shirt/14641438/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (60% OFF)
+After discount: Rs. 599
+Link: https://www.myntra.comshirts/roadster/roadster-men-green-solid-casual-cotton-shirt/14640802/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2099
+Discount: (60% OFF)
+After discount: Rs. 839
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-checked-spread-collar-cotton-casual-shirt/33710976/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (59% OFF)
+After discount: Rs. 655
+Link: https://www.myntra.comshirts/roadster/roadster-men-teal-blue-slim-fit-solid-casual-shirt/14641446/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (59% OFF)
+After discount: Rs. 655
+Link: https://www.myntra.comshirts/roadster/roadster-men-olive-green-opaque-casual-shirt/14641448/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (59% OFF)
+After discount: Rs. 655
+Link: https://www.myntra.comshirts/roadster/roadster-men-turquoise-blue-slim-fit-opaque-casual-shirt/14641508/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (59% OFF)
+After discount: Rs. 614
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-light-blue-solid-regular-fit-chambray-casual-shirt/15557590/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (59% OFF)
+After discount: Rs. 614
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--green-pure-cotton-checked-casual-shirt/13793822/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (59% OFF)
+After discount: Rs. 614
+Link: https://www.myntra.comshirts/roadster/roadster-men-brown--black-slim-fit-checked-casual-shirt/2164373/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (59% OFF)
+After discount: Rs. 696
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy--grey-checked-casual-shirt/1667044/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (59% OFF)
+After discount: Rs. 696
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-men-pure-cotton-relaxed-fit-casual-shirt/31379380/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (59% OFF)
+After discount: Rs. 655
+Link: https://www.myntra.comshirts/roadster/roadster-men-grey-solid-slim-fit-casual-shirt/14641376/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (59% OFF)
+After discount: Rs. 655
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-relaxed-fit-drop-shoulder-sleeves-pure-cotton-casual-shirt/31305152/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (59% OFF)
+After discount: Rs. 532
+Link: https://www.myntra.comshirts/roadster/roadster-men-burgundy-regular-fit-solid-casual-shirt/12442640/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (59% OFF)
+After discount: Rs. 819
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-checked-pure-cotton-casual-shirt/32024356/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (59% OFF)
+After discount: Rs. 696
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-pure-cotton-opaque-casual-shirt/21986358/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: (59% OFF)
+After discount: Rs. 942
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-linen-cotton-hooded-casual-shirt/21986484/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (58% OFF)
+After discount: Rs. 587
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-classic-regular-fit-cotton-casual-shirt/17091614/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (58% OFF)
+After discount: Rs. 713
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-cabernet-slim-fit-buffalo-checked-pure-cotton-opaque-sustainable-casual-shirt/15557452/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (58% OFF)
+After discount: Rs. 629
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-printed-casual-shirt/1364628/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (58% OFF)
+After discount: Rs. 629
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-regular-fit-printed-casual-sustainable-shirt/12127350/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (58% OFF)
+After discount: Rs. 587
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-pure-cotton-casual-shirt/18199958/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (58% OFF)
+After discount: Rs. 587
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-pure-cotton-casual-shirt/18199964/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (58% OFF)
+After discount: Rs. 629
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-denim-washed-casual-shirt/1358818/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (58% OFF)
+After discount: Rs. 587
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-casual-shirt/2527414/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (57% OFF)
+After discount: Rs. 558
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-solid-regular-fit-casual-shirt/11896098/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (57% OFF)
+After discount: Rs. 687
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--navy-blue-checked-pure-cotton-casual-shirt/9951411/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (57% OFF)
+After discount: Rs. 644
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--grey-checked-casual-shirt/8889597/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (57% OFF)
+After discount: Rs. 601
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-regular-fit-solid-opaque-pure-cotton-casual-shirt/11896080/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (57% OFF)
+After discount: Rs. 730
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-relaxed-fit-drop-shoulder-sleeves-pure-cotton-casual-shirt/31305164/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (57% OFF)
+After discount: Rs. 687
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--navy-blue-checked-casual-shirt/1862801/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (57% OFF)
+After discount: Rs. 859
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue--white-checked-structured-casual-shirt/8889647/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (56% OFF)
+After discount: Rs. 879
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-cotton-linen-shirt/8499829/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1099
+Discount: (56% OFF)
+After discount: Rs. 483
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-embroidered-detail-relaxed-shirt/32024058/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (56% OFF)
+After discount: Rs. 703
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-cotton-poplin-hooded-casual-shirt/21988982/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (55% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-casual-shirt/10398123/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (55% OFF)
+After discount: Rs. 674
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--red-regular-fit-checked-sustainable-casual-shirt/12947322/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (55% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-casual-shirt/10398123/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (55% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-pure-cotton-sustainable-casual-shirt/2127878/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (55% OFF)
+After discount: Rs. 449
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-relaxed-fit-drop-shoulder-sleeves-pure-cotton-casual-shirt/32023749/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2199
+Discount: (55% OFF)
+After discount: Rs. 989
+Link: https://www.myntra.comshirts/roadster/roadster-men-beige--red-checked-casual-reversible-shirt/11896318/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (55% OFF)
+After discount: Rs. 674
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--red-checked-pure-checked-casual-shirt/17377650/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (55% OFF)
+After discount: Rs. 674
+Link: https://www.myntra.comshirts/roadster/roadster-men-burgundy--black-checked-pure-cotton-casual-shirt/11327084/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (55% OFF)
+After discount: Rs. 674
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-black--red-regular-fit-checked-casual-shirt/11156212/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: (55% OFF)
+After discount: Rs. 719
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-solid-casual-shirt/21986536/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (55% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--blue-checked-pure-cotton-casual-shirt/11327220/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2099
+Discount: (54% OFF)
+After discount: Rs. 965
+Link: https://www.myntra.comshirts/roadster/roadster-men-pack-of-2-sustainable-shirts/2038071/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (54% OFF)
+After discount: Rs. 689
+Link: https://www.myntra.comshirts/roadster/roadster-men-burgundy-stretchable-casual-shirt/12442630/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (54% OFF)
+After discount: Rs. 597
+Link: https://www.myntra.comshirts/roadster/roadster-men-purple-pure-cotton--solid-opaque-casual-shirt/15221272/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (54% OFF)
+After discount: Rs. 689
+Link: https://www.myntra.comshirts/roadster/roadster-men-black--white-checked-pure-cotton-casual-shirt/8889611/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (53% OFF)
+After discount: Rs. 563
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-pure-cotton-casual-shirt/11896110/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (53% OFF)
+After discount: Rs. 563
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-pure-cotton-casual-shirt/11896108/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (53% OFF)
+After discount: Rs. 610
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-regular-fit-solid-casual-shirt/6788615/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1099
+Discount: (52% OFF)
+After discount: Rs. 527
+Link: https://www.myntra.comshirts/roadster/roadster-men-green-regular-fit-solid-casual-shirt/11326768/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (51% OFF)
+After discount: Rs. 636
+Link: https://www.myntra.comshirts/roadster/roadster-men-black--grey-regular-fit-checked-casual-shirt/10397849/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (51% OFF)
+After discount: Rs. 636
+Link: https://www.myntra.comshirts/roadster/roadster-men-burgundy--grey-regular-fit-checked-casual-shirt/12056188/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 799
+Discount: (50% OFF)
+After discount: Rs. 399
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-pure-cotton-casual-shirt/32023775/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (50% OFF)
+After discount: Rs. 999
+Link: https://www.myntra.comshirts/roadster/roadster-men-pure-cotton-standard-casual-shirt/19702830/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (50% OFF)
+After discount: Rs. 649
+Link: https://www.myntra.comshirts/roadster/roadster-men-teal-blue--navy-blue-checked-pure-cotton-casual-shirt/9951637/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (50% OFF)
+After discount: Rs. 599
+Link: https://www.myntra.comshirts/roadster/roadster-men-grey-solid-pure-cotton-sustainable-casual-shirt/10945064/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 799
+Discount: (50% OFF)
+After discount: Rs. 399
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-opaque-pure-cotton-casual-shirt/32023771/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (50% OFF)
+After discount: Rs. 649
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-and-grey-tartan-checked-slim-fit-pure-cotton-casual-shirt/14849878/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (50% OFF)
+After discount: Rs. 649
+Link: https://www.myntra.comshirts/roadster/roadster-men-green-slim-fit-opaque-casual-shirt/14641324/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (49% OFF)
+After discount: Rs. 662
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--navy-blue-regular-fit-checked-casual-shirt/11326694/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1099
+Discount: (49% OFF)
+After discount: Rs. 560
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-green-camouflage-printed-sustainable-casual-shirt/10944516/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (49% OFF)
+After discount: Rs. 662
+Link: https://www.myntra.comshirts/roadster/roadster-men-multicoloured-windowpane-checks-opaque-pure-cotton-sustainable-casual-shirt/14878040/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (49% OFF)
+After discount: Rs. 509
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-twill-casual-shirt/2284691/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (49% OFF)
+After discount: Rs. 713
+Link: https://www.myntra.comshirts/roadster/roadster-men-beige--navy-blue-checked-reversible-casual-shirt/2220379/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (49% OFF)
+After discount: Rs. 662
+Link: https://www.myntra.comshirts/roadster/roadster-men-green--blue-regular-fit-checked-casual-shirt/11327146/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (49% OFF)
+After discount: Rs. 662
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--blue-checked-casual-shirt/14849842/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (49% OFF)
+After discount: Rs. 662
+Link: https://www.myntra.comshirts/roadster/roadster-men-black--grey-regular-fit-checked-casual-shirt/10398271/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (47% OFF)
+After discount: Rs. 688
+Link: https://www.myntra.comshirts/roadster/roadster-men-black--red-yarn-dyed-checked-casual-shirt/8889501/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (46% OFF)
+After discount: Rs. 539
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-pure-cotton-casual-shirt/2127876/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (45% OFF)
+After discount: Rs. 549
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-relaxed-fit-opaque-pure-cotton-casual-shirt/32023766/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (44% OFF)
+After discount: Rs. 559
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-pure-cotton-casual-shirt/9713949/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: (43% OFF)
+After discount: Rs. 569
+Link: https://www.myntra.comshirts/roadster/roadster-men-olive-green-pure-cotton-casual-shirt/11904108/buy
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  And I print the final product list to the console                      # steps.Myntra.printSortedResults()
+]]></system-out>
+  </testcase>
+</testsuite>

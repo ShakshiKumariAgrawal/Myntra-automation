@@ -12,3 +12,5 @@ Feature: Get discounted products from Myntra based on gender, type, and brand
   Examples:
     | brand       | gender | type    | links                                                               | mx |
     | HRX | Women | Kurti |  https://www.myntra.com | 2 |
+    | Puma          | Women  | Spacesuit   | https://www.myntra.com         | 2        |
+    | Adidas        | Men   | Blazers     | https://www.google.com         | 2        |

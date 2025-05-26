@@ -10,6 +10,5 @@ Feature: Get discounted products from Myntra based on gender, type, and brand
     And I print the final product list to the console
 
   Examples:
-    | brand       | gender | type    | links                  | mx |
-
-
+    | brand       | gender | type    | links                                                               | mx |
+    | HRX | Women | Kurti |  https://www.myntra.com | 2 |

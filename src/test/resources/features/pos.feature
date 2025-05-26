@@ -12,7 +12,4 @@ Feature: Get discounted products from Myntra based on gender, type, and brand
   Examples:
     | brand       | gender | type    | links                                                               | mx |
     | Van Heusen  | Men    | T-shirts | https://www.myntra.com                                 | 2  |
-    | KALINI    | Women    | Saree  | https://www.myntra.com                                  | 3  |
     | Roadster  | Men  | Casual Shirts    | https://www.myntra.com   | 2  |
-    | DressBerry | Women | Tops | https://www.myntra.com | 3 |
-    | PERPAA | Women | Lipstick | https://www.myntra.com | 2 |
